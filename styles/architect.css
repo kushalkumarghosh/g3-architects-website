@@ -145,6 +145,7 @@ main {
     }
 
     nav,
+    .facts-card-container,
     .teams-container {
         flex-direction: column;
     }
@@ -153,9 +154,12 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content {
+    .teams-content, .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 }
 
